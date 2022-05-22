@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    color: #232333;
+    margin: 0px;
+}
+
+.main-head {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid rgba(128, 128, 128, 0.348);
+    padding-left: 108px;
+    background-image: url('circle.png');
+    background-repeat: no-repeat;
+    background-position: -920px -322px;
+    background-size: 1374px;
+}
+
+.image-1 {
+    border: 1px solid rgba(128, 128, 128, 0.294);
+    box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.875);
+    border-radius: 12px;
+    width: 540px;
+    height: 432px;
+    margin: 0px 40px;
+    margin-top: 140px;
+}
+
+.head-2 {
+    width: 70%;
+    padding-right: 90px;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+li {
+    font-size: 16px;
+    padding-left: 35px;
+    margin-top: 25px;
+    background: url(https://explore.zoom.us/docs/image/postattendee/checkmarks.svg) no-repeat left top;
+    line-height: 178%;
+}
+
+.lists li {
+    list-style: none;
+}
+
+.lists {
+    padding-left: 0px;
+    padding-top: 15px;
+}
